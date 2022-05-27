@@ -47,9 +47,9 @@
 
  > cout is an object used together with the insertion operator (<<) to output/print text.
  >
- > Note: every statement in C++ ends with a semicolon (;).
+ > ***Note:*** every statement in C++ ends with a semicolon (;).
  >
- > Remember: the compiler ignores white spaces.
+ > ***Remember:*** the compiler ignores white spaces.
 
  ---
  ---
