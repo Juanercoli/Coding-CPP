@@ -27,7 +27,7 @@
         <td>DESCRIPTION</td>
     </tr>
     <tr>
-        <td>boolean</td>
+        <td>bool</td>
         <td>1 byte</td>
         <td>Stores a true or false value</td>
     </tr>
