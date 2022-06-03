@@ -67,38 +67,6 @@ std::cout << letters[0][2];  // Outputs "C"
 
 > Analogous to one-dimensional array.
 
-## `BREAK`
-
-```cpp
-for (int i = 0; i < 10; i++) {
-    if (i == 4) {
-        break;
-    }
-    cout << i << "\n";
-} 
-```
-
-> The **break** statement can be used to jump out of a loop.
-> 
-> In this example jumps out of the loop when i is equal to 4.
-
-## `CONTINUE`
-
-```cpp
-for (int i = 0; i < 10; i++) {
-    if (i == 4) {
-        continue;
-    }
-    cout << i << "\n";
-} 
-```
-
-> The **continue** statement breaks one iteration (in the loop), if a
-> specified condition occurs, and continues with the next iteration
-> in the loop.
->
-> In this example skips the iteration when i is equal to 4.
-
  ---
  ---
  <a href="https://www.w3schools.com" target="_blank">Source</a>
