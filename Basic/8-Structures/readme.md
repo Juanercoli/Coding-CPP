@@ -13,16 +13,16 @@
 ## `CREATE A STRUCTURE`
 
 ```cpp
-struct {             // Structure declaration
-    int myNum;         // Member (int variable)
-    string myString;   // Member (string variable)
+struct {                                 // Structure declaration
+    int myNum;                           // Member (int variable)
+    string myString;                     // Member (string variable)
 } myStruct1, myStruct2, myStruct3;       // Structure variables
  ```
 
 ## `ACCESING MEMBERS`
 
 ```cpp
- // Assign values to members of myStruct1
+// Assign values to members of myStruct1
 myStruct1.myNum = 1;
 myStruct1.myString = "Hello World!";
 
