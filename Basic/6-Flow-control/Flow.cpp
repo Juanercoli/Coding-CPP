@@ -23,6 +23,7 @@ int main() {
             // Do something...
             break;
         default:
+            ;
             // Do something...    
     }
 
