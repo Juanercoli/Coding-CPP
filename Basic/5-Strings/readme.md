@@ -18,7 +18,7 @@
  
  // Create a string variable
  string hello = "Hello";
- ```
+```
 
 > To use the string class you must **include** the string library.
 
@@ -32,7 +32,7 @@
  // Or we can use the append method
  fullName = firstName.append(" ");      // --> "Juan "
  fullName = fullName.append(lastName);  // --> "Juan Ercoli"
- ```
+```
 
 > To use the string class you must include the string library.
 
@@ -42,7 +42,7 @@
  string txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
  cout << txt.length() << '\n';  // --> 26
  cout << txt.size() << '\n';    // --> 26 
- ```
+```
 
 > To get the length of a string you can use the method called length().
 >
@@ -52,41 +52,40 @@
 ## `ACCESSING STRINGS`
 
 ```cpp
- string txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+string txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
  
- cout << txt[0] << '\n';  // --> 'A'
- txt[0] = B;
- cout << txt.[0] << '\n'; // --> 'B' 
- ```
+cout << txt[0] << '\n';  // --> 'A'
+txt[0] = B;
+cout << txt.[0] << '\n'; // --> 'B' 
+```
 
- > You can access the characters in a string by referring to its index number inside square brackets [].
- >
- > Index starts at 0 position.
+> You can access the characters in a string by referring to its index number inside square brackets [].
+>
+> Index starts at 0 position.
 
 ## `USER INPUT STRINGS`
 
 ```cpp
- string fullName;
+string fullName;
 
- // With cin 
+// With cin 
 cin >> fullName;  // Juan Ercoli
 cout << fullName; // --> Juan
 
- // With getLine
+// With getLine
 getLine(cin, fullName); // Juan Ercoli
 cout << fullName;       // --> Juan Ercoli
+```
 
- ```
+> If you use cin you should know that cin considers a space as a terminating character.
+>
+> When working with strings the function getLine is often used to get user input.
+> With getLine function you can read an entire line of text.
 
- > If you use cin you should know that cin considers a space as a terminating character.
- >
- > When working with strings the function getLine is often used to get user input.
- > With getLine function you can read an entire line of text.
-
- ---
- ---
- <a href="https://www.w3schools.com" target="_blank">Source</a>
- >
- <a href="https://www.cplusplus.com/reference/string/string/" target="_blank">More info about string class</a>
+---
+---
+<a href="https://www.w3schools.com" target="_blank">Source</a>
+>
+<a href="https://www.cplusplus.com/reference/string/string/" target="_blank">More info about string class</a>
 
 

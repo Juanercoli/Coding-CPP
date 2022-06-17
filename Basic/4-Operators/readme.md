@@ -61,7 +61,6 @@
         <td>Decrements the value of a variable by 1</td>
         <td>x-- or --x</td>
     </tr>
-
 </table>
 
 ## `LOGICAL OPERATORS`
@@ -91,7 +90,6 @@
         <td>Reverse the result, returns false if the result is true</td>
         <td>!x</td>
     </tr>
-
 </table>
 
 ## `COMPARISON OPERATORS`
@@ -132,7 +130,6 @@
         <td>Less than or equal</td>
         <td>x <= y</td>
     </tr>
-
 </table>
 
 ## `BITWISE OPERATORS`
@@ -165,13 +162,12 @@
         <td>>></td>
         <td>Binary Shift Right</td>        
     <tr>
-
 </table>
 
 ## `ASSIGNMENT OPERATORS`
 
 ```cpp
-    variableName operator= number;
+variableName operator= number;
 ```
 
 > You can use assignment plus an **operator** to make shorter codes. You can use the following operators:
@@ -191,8 +187,8 @@
     </tr>
 </table>
 
- ---
- ---
- <a href="https://www.w3schools.com" target="_blank">Source</a>
+---
+---
+<a href="https://www.w3schools.com" target="_blank">Source</a>
 
 

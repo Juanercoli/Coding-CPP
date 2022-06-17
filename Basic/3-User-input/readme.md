@@ -17,6 +17,7 @@
  ```
 
 > To get user input we use **cin** which is a predefined variable that reads data from keyboard with the extraction operator (>>).
+
  ---
  ---
  <a href="https://www.w3schools.com" target="_blank">Source</a>

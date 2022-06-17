@@ -13,8 +13,8 @@
 ## `DECLARATION AND ASSIGNATION`
 
 ```cpp
- type variableName = value;
- ```
+type variableName = value;
+```
 
 > Following the syntax you can declare a variable replacing **type** with one of C++ types, and **variableName** with the name of the variable. The **equal** sign is used to assign values to the variable.
 
@@ -51,14 +51,13 @@
         <td>8 bytes</td>
         <td>Stores a fractional number, containing one or more decimals. Sufficient for storing 15 decimal digits</td>
     </tr>
-
 </table>
 
 
 
- > These are the basic data types that we can find in c++.
+> These are the basic data types that we can find in c++.
 
- ## `IDENTIFIERS`
+## `IDENTIFIERS`
 
 ```cpp
 // Good
@@ -66,11 +65,11 @@ int minutesPerHour = 60;
 
 // OK, but not so easy to understand what m actually is
 int m = 60;
- ```
+```
 
- > All C++ variables must be identified with  **unique** names. these unique names are called **identifiers**. 
- >
- > ***Note:*** it is recommended to use **descriptive** names in order to create understandable and maintanable code.
+> All C++ variables must be identified with  **unique** names. these unique names are called **identifiers**. 
+>
+> ***Note:*** it is recommended to use **descriptive** names in order to create understandable and maintanable code.
 
 > The general rules for naming variables are:
 >
@@ -80,15 +79,16 @@ int m = 60;
 > - Names cannot contain whitespaces or special characters like !, #, %, etc.
 > - Reserved words such as int cannot be used as names.
 
- ## `CONSTANTS`
+## `CONSTANTS`
 
 ```cpp
-    const int w = 15;
- ```
+const int w = 15;
+```
 
- > const is a keyword used to make variables unchangeable and read-only. These are values that are unlikely to change.
- ---
- ---
- <a href="https://www.w3schools.com" target="_blank">Source</a>
+> const is a keyword used to make variables unchangeable and read-only. These are values that are unlikely to change.
+
+---
+---
+<a href="https://www.w3schools.com" target="_blank">Source</a>
 
 

@@ -13,46 +13,46 @@
 ## `LINE 1`
 
 ```cpp
- #include <iostream.h>
- ```
+#include <iostream.h>
+```
 
 > This is the include of a header file library that let us work with input and output objects, such as cout. Header files add functionality to C++ programs.
 
 ## `LINE 2`
 
 ```cpp
- using namespace std
- ```
+using namespace std
+```
  
- > Means that we can use names for objects and variables from the standard library.
+> Means that we can use names for objects and variables from the standard library.
 
- - <a href='https://stackoverflow.com/questions/57063459/using-multiple-namespaces' target='_blank'>More info about namespaces</a>
+- <a href='https://stackoverflow.com/questions/57063459/using-multiple-namespaces' target='_blank'>More info about namespaces</a>
 
- ## `LINE 4`
-
-```cpp
- int main()
- {
-     // Code...
- }
- ```
-
- > This is called a function. Any code inside its curly brackets will be executed.
-
- ## `LINE 5`
+## `LINE 4`
 
 ```cpp
-    cout << "Hello World!";
- ```
+int main()
+{
+    // Code...
+}
+```
 
- > cout is an object used together with the insertion operator (<<) to output/print text.
- >
- > ***Note:*** every statement in C++ ends with a semicolon (;).
- >
- > ***Remember:*** the compiler ignores white spaces.
+> This is called a function. Any code inside its curly brackets will be executed.
 
- ---
- ---
- <a href="https://www.w3schools.com" target="_blank">Source</a>
+## `LINE 5`
+
+```cpp
+cout << "Hello World!";
+```
+
+> cout is an object used together with the insertion operator (<<) to output/print text.
+>
+> ***Note:*** every statement in C++ ends with a semicolon (;).
+>
+> ***Remember:*** the compiler ignores white spaces.
+
+---
+---
+<a href="https://www.w3schools.com" target="_blank">Source</a>
 
 

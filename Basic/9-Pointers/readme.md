@@ -19,7 +19,7 @@ string &meal = food;    // reference to food
 cout << food << "\n";   // Outputs Pizza
 cout << meal << "\n";   // Outputs Pizza
 cout << &food;          // Outputs 0x6dfed4
- ```
+```
 
 ## `CREATING POINTERS`
 
@@ -35,9 +35,9 @@ cout << &food << "\n";
 
 // Output the memory address of food with the pointer (0x6dfed4)
 cout << ptr << "\n";
- ```  
+```  
 
- ## `DEREFERENCING`
+## `DEREFERENCING`
 
 ```cpp
 string food = "Pizza";  // Variable declaration
@@ -48,9 +48,9 @@ cout << ptr << "\n";
 
 // Dereference: Output the value of food with the pointer (Pizza)
 cout << *ptr << "\n";
- ```
+```
 
- ## `MODIFY POINTERS`
+## `MODIFY POINTERS`
 
 ```cpp
 string food = "Pizza";

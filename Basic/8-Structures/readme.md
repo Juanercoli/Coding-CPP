@@ -17,7 +17,7 @@ struct {                                 // Structure declaration
     int myNum;                           // Member (int variable)
     string myString;                     // Member (string variable)
 } myStruct1, myStruct2, myStruct3;       // Structure variables
- ```
+```
 
 ## `ACCESING MEMBERS`
 
@@ -29,11 +29,11 @@ myStruct1.myString = "Hello World!";
 // Print members of myStruct1
 cout << myStruct1.myNum << "\n";
 cout << myStruct1.myString << "\n";
- ```
+```
 
 > You can access members of a structure using . (dot syntax).   
 
- ## `NAMED STRUCTURES`
+## `NAMED STRUCTURES`
 
 ```cpp
 struct myDataType { // This structure is named "myDataType"
@@ -42,11 +42,11 @@ struct myDataType { // This structure is named "myDataType"
 };
 
 myDataType myVar;   // Declaration of a variable of type myDataType
- ```
+```
 
 > You can treat a structure as a data type with the above syntax. 
 
- ---
- ---
- <a href="https://www.w3schools.com" target="_blank">Source</a>
+---
+---
+<a href="https://www.w3schools.com" target="_blank">Source</a>
 

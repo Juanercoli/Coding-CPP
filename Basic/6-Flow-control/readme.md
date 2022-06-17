@@ -20,7 +20,7 @@
 } else {
     // block of code to be executed if the condition1 is false and condition2 is false
 }
- ```
+```
 
 ## `TERNARY OPERATOR`
 
@@ -30,7 +30,7 @@
  
  > This is a short-hand if else.
 
- ## `SWITCH`
+## `SWITCH`
 
 ```cpp
 switch(expression) {
@@ -43,25 +43,25 @@ switch(expression) {
     default:
         // code block
 }
- ```
+```
 
- ## `WHILE LOOP`
+## `WHILE LOOP`
 
 ```cpp
 while (condition) {
     // code block to be executed
 }
- ```
+```
 
- ## `DO/WHILE LOOP`
+## `DO/WHILE LOOP`
 
 ```cpp
 do {
     // code block to be executed
 } while (condition);
- ```
+```
 
- ## `FOR LOOP`
+## `FOR LOOP`
 
 ```cpp
 for (statement 1; statement 2; statement 3) {
@@ -105,7 +105,7 @@ for (int i = 0; i < 10; i++) {
 >
 > In this example skips the iteration when i is equal to 4.
 
- ---
- ---
- <a href="https://www.w3schools.com" target="_blank">Source</a>
+---
+---
+<a href="https://www.w3schools.com" target="_blank">Source</a>
 
